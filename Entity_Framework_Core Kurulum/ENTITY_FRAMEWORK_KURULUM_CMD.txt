@@ -1,0 +1,14 @@
+YÜKLEMEK İÇİN => CMD EKRANINA: dotnet tool install --global dotnet-ef
+UPDATE İÇİN => CMD EKRANINA: dotnet tool update --global dotnet-ef
+CHECK İÇİN => CMD EKRANINA dotnet ef
+
+KOMUTLARINI YAZMAMIZ YETERLİDİR.
+
+----------------------------------------------------------------------------------------
+
+TOOL'U YÜKLEDİKTEN SONRA BELİRLİ BİR PROJEDE KULLANABİLMEK İÇİN İLGİLİ 
+PROJEDE ŞU PAKETİN'DE YÜKLÜ OLMASI GEREKMEKTEDİR.
+
+=>Microsoft.EntityFrameworkCore.Design
+
+----------------------------------------------------------------------------------------
