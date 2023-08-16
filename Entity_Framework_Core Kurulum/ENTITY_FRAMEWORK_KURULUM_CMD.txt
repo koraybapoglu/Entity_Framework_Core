@@ -12,3 +12,12 @@ PROJEDE ŞU PAKETİN'DE YÜKLÜ OLMASI GEREKMEKTEDİR.
 =>Microsoft.EntityFrameworkCore.Design
 
 ----------------------------------------------------------------------------------------
+
+PACKAGE MANAGER CONSOLE(PMC) TOOLS
+
+Visual Studio,Package Manager Console üzerinden talimatlar vermemizi sağlayan bir tool'dur.
+
+
+Haliyle Package Manager Console üzerinden talimatlar verebilmek için şu paketin ilgili projede yüklü olması gerekmektedir.
+
+=>Microsoft.EntityFrameworkCore.Tools
