@@ -1,0 +1,17 @@
+Merhaba! Bugün ORM (Object-Relational Mapping) konusuna bir göz atalım. Peki, ORM ne demek? Biraz açalım.
+
+Diyelim ki bir uygulama geliştiriyorsunuz ve veritabanında saklanan verileri işlemek zorundasınız.
+Ancak, veritabanı dünyası ve programlama dili dünyası birbirinden oldukça farklıdır. İşte bu noktada ORM devreye giriyor.
+
+ORM, sanki veritabanındaki bilgileri rahatça nesneler gibi program kodunuzda kullanıyormuşsunuz gibi hissetmenizi sağlayan bir tekniktir.
+Düşünün ki bir kitap mağazası uygulaması yapıyorsunuz ve kitapları veritabanında saklamalısınız.
+Veritabanında her kitap bir tablo satırı olarak depolanırken, bu verileri programınızda sanki nesnelermiş gibi yönetmek istersiniz, değil mi?
+
+İşte burada ORM devreye girer. ORM araçları, bu nesneleri (kitaplar gibi) ve veritabanı tablolarını birbirine bağlamada size yardımcı olur.
+Yani, veritabanındaki bilgileri çekmek, güncellemek, eklemek veya silmek istediğinizde, bunu sanki nesneler üzerinden yapıyormuş gibi rahatça gerçekleştirebilirsiniz.
+
+Bu, sadece işleri kolaylaştırmakla kalmaz, aynı zamanda kodunuzun daha temiz ve anlaşılır olmasını sağlar.
+Artık veritabanı sorgularını karmaşık SQL kodlarıyla yazmak zorunda kalmadan, nesneler üzerinden işlem yapabilirsiniz.
+
+Yani kısacası, ORM veritabanıyla arkadaşça iletişim kurmanın yollarından biridir.
+Veritabanı dünyasıyla programlama dünyasını birleştirir ve size daha rahat bir geliştirme deneyimi sunar.
