@@ -1,0 +1,53 @@
+-------------------------------------------DATABASE FİRST------------------------------------------------
+
+TERSİNE MÜHENDİSLİK NEDİR ?
+
+=>TERSİNE MÜHENDİSLİK,BİR SUNUCUSUNDAKİ VERİTABANININ İSKELESİNİ KOD KISMINDA OLUŞTURMA SÜRECİDİR.
+
+KISACA DATABASE FİRST'DÜR.
+
+BU SÜRECİ PACKAGE MANAGER CONSOLE(PMC) YA DA DOTNET CLI ARACILIĞIYLA İKİ FARKLI ŞEKİLDE YÜRÜTEBİLİRİZ.
+
+------------------------------------------------------------------------------------------
+
+PMC(PACKAGE MANAGER CONSOLE) İLE TERSİNE MÜHENDİSLİK
+
+-SCAFFOLD KOMUTU-
+
+SCAFFOLD KOMUTU NEDİR ?
+
+=>HEDEF VERİTABANINI KOD KISMINDA MODELLENMESİNİ SAĞLAYAN BİR KOMUTTUR.
+
+------------------------------------
+
+PMC İLE DATABASE FİRST KOMUTU
+
+ => Scaffold-DbContext 'Connection String' Microsoft.EntityFrameworkCore.[Provider]
+
+PROVİDER NEDİR ?
+
+=>Provider kullanmış olduğumuz veritabanını belirttiğimiz kısımdır.
+
+PMC İLE VERİTABANINI MODELLEYEBİLMEK İÇİN AŞAĞIDAKİ KÜTÜPHANELERİN PROJEYE YÜKLENMESİ GEREKMEKTEDİR.
+
+=>Microsoft.EntityFrameworkCore.Tools
+
+=>Database Provider(Örn;Microsoft.EntityFrameworkCore.SqlServer)
+
+------------------------------------------------------------------------------------------
+
+EK BİLGİ=-OutputDir Models kodu ekstra olarak gelen entity'leri Model Dosyası Oluşturarak oraya yüklememizi sağlar
+
+Scaffold-DbContext 'Connection String' Microsoft.EntityFrameworkCore.[Provider] -OutputDir Models
+
+-------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
