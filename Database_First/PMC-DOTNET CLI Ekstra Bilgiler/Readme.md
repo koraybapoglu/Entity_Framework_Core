@@ -6,11 +6,11 @@ Varsayılan olarak, veritabanındaki tüm tablolar modellemeye dahil edilir. Anc
 
 ### PMC (PACKAGE MANAGER CONSOLE) için;
 
-**Scaffold-DbContext 'Connection String' Microsoft.EntityFrameworkCore.[Provider] -Tables Table1, Table2...
+Scaffold-DbContext 'Connection String' Microsoft.EntityFrameworkCore.[Provider] -Tables Table1, Table2...
 
 ### DOTNET CLI için;
 
-**dotnet ef dbcontext scaffold 'Connection String' Microsoft.EntityFrameworkCore.[Provider] --table Table1 --table Table2 ...
+dotnet ef dbcontext scaffold 'Connection String' Microsoft.EntityFrameworkCore.[Provider] --table Table1 --table Table2 ...
 
 
 ## DbContext Adını Belirtme
@@ -19,7 +19,7 @@ Scaffold ile oluşturulan veritabanı modeli için oluşturulacak DbContext nesn
 
 ### PMC (PACKAGE MANAGER CONSOLE) için;
 
-**Scaffold-DbContext 'Connection String' Microsoft.EntityFrameworkCore.[Provider] -Context ContextName
+Scaffold-DbContext 'Connection String' Microsoft.EntityFrameworkCore.[Provider] -Context ContextName
 
 
 ### DOTNET CLI için;
@@ -33,7 +33,7 @@ Entity sınıfları ve DbContext sınıfı, varsayılan olarak direkt olarak pro
 
 ### PMC için;
 
-**Scaffold DbContext 'Connection String' Microsoft.EntityFrameworkCore.SqlServer -ContextDir Data -OutputDir Models
+Scaffold DbContext 'Connection String' Microsoft.EntityFrameworkCore.SqlServer -ContextDir Data -OutputDir Models
 
 ### DOTNET CLI için;
 
@@ -48,12 +48,12 @@ Eğer böyle bir durumla karşılaşırsanız, dosyaların varlığına bakılma
 
 ### PMC için;
 
-**Scaffold -DbContext 'Connection String' EntityFrameworkCore.[Provider] -Force
+Scaffold -DbContext 'Connection String' EntityFrameworkCore.[Provider] -Force
 
 
 ### DOTNET CLI için;
 
-**dotnet ef dbcontext scaffold 'Connection String' Microsoft.EntityFrameworkCore.[Provider] --force
+dotnet ef dbcontext scaffold 'Connection String' Microsoft.EntityFrameworkCore.[Provider] --force
 
 
 
