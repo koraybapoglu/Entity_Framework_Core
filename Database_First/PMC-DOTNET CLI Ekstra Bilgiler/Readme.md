@@ -7,7 +7,8 @@ Varsayılan olarak, veritabanındaki tüm tablolar modellemeye dahil edilir. Anc
 ### PMC (PACKAGE MANAGER CONSOLE) için;
 
 ```bash
-Scaffold-DbContext 'Connection String' Microsoft.EntityFrameworkCore.[Provider] -Tables Table1, Table2... 
+Scaffold-DbContext 'Connection String' Microsoft.EntityFrameworkCore.[Provider] -Tables Table1, Table2...
+```bash
 
 ### DOTNET CLI için;
 
