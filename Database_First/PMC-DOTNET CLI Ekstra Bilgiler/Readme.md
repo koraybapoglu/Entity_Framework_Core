@@ -6,7 +6,8 @@ Varsayılan olarak, veritabanındaki tüm tablolar modellemeye dahil edilir. Anc
 
 ### PMC (PACKAGE MANAGER CONSOLE) için;
 
-Scaffold-DbContext 'Connection String' Microsoft.EntityFrameworkCore.[Provider] -Tables Table1, Table2...
+```bash
+Scaffold-DbContext 'Connection String' Microsoft.EntityFrameworkCore.[Provider] -Tables Table1, Table2... 
 
 ### DOTNET CLI için;
 
@@ -24,7 +25,7 @@ Scaffold-DbContext 'Connection String' Microsoft.EntityFrameworkCore.[Provider] 
 
 ### DOTNET CLI için;
 
-**dotnet ef dbcontext scaffold 'Connection String' MicrosoftEntityFrameworkCore.[Provider] --context ContextName
+dotnet ef dbcontext scaffold 'Connection String' MicrosoftEntityFrameworkCore.[Provider] --context ContextName
 
 
 ## Path ve Namespace Belirtme
