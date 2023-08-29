@@ -34,4 +34,4 @@ Projeyi çatallayabilir, geliştirebilir ve önerilerde bulunabilirsiniz. Yeni �
 
 ## Lisans
 
-Bu proje MIT lisansı altında dağıtılmaktadır. Detaylar için [LİSANS](LISANS) dosyasını inceleyebilirsiniz.
+Bu proje ücretsiz olarak kullanıma sunulmuştur.
