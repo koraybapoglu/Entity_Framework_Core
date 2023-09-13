@@ -37,9 +37,6 @@ Bu README dosyası, Entity Framework Core'da Change Tracking ve ilgili methodlar
 Bu methodlar, değişikliklerin nasıl kaydedildiğini kontrol etmek için kullanılır. Hangi yöntemin kullanılacağı projenizin ihtiyaçlarına bağlıdır.
 
 
-# Entity Framework Core Entity States
-
-Entity Framework Core (EF Core), .NET tabanlı uygulamalarda veritabanı işlemlerini yönetmek için kullanılan bir ORM (Object-Relational Mapping) aracıdır. Bu README dosyası, EF Core'da kullanılan temel Entity State (Varlık Durumu) kavramlarını açıklar.
 
 ## Entity State Nedir?
 
